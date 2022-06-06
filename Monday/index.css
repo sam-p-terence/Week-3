@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: rgb(227, 128, 227);
+    font-weight: bold;
+    font-size: 32px;
+}
+
+img {
+    width: 30vh;
+}
