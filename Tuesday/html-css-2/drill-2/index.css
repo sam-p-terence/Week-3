@@ -1,0 +1,60 @@
+.header {
+    border: 4px solid black;
+    padding: 25px; 
+    height: 15vh;
+    display: flex;
+}
+
+.shapes {
+    width: 15px;
+    height: 165px;
+    background-color: green;
+    margin-right: 75px;
+}
+
+.rectangle {
+    width: 35px;
+    height: 20px;
+    background-color: purple;
+    margin-right: 75px;
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 50%; 
+}
+
+.rectangle2 {
+    width: 1550px;
+    height: 180px;
+    background-color: tan;
+    margin: auto;
+}
+
+#shadow {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+.header2 {
+    margin: 10px;
+    border: 5px dotted black;
+    padding: 25px; 
+    height: 200px;
+    display: flex;
+}
+
+.rectangle2 {
+    width: 1550px;
+    height: 180px;
+    background-color: tan;
+    margin: auto;
+}
+
+#shadow {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}

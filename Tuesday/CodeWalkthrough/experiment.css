@@ -1,0 +1,15 @@
+
+
+.input-selection {
+    padding-top: 10px;
+    background-color: limegreen;
+}
+
+.name-div {
+    background-color: fuchsia;
+    width: 50%;
+}
+
+#formSubmitButton {
+    margin-bottom: 20px;
+}
