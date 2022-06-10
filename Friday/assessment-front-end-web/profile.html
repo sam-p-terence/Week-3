@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylestwo.css">
+    <link rel="stylesheet" href="styles.css">
     <title>This is my profile</title>
 </head>
 <h1>Welcome to my profile</h1>
@@ -23,7 +23,6 @@
 
 
 
-
     <p>Choose your favorite type of pizza!</p>
 
 <form>
@@ -37,7 +36,50 @@
 <form>
     <input type="submit" value="Submit">
 </form>
-    
+
+<div>
+<button id="color">My Favorite Color</button>
+<p id="demo">
+<script>
+let element = document.getElementById("color");
+element.addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "My favorite color is Forest Green";
+};
+</script>
+</div>
+
+<div>
+<button id="place">My Favorite Place</button>
+<p id="demoTwo">
+<script>
+let elementTwo = document.getElementById("place");
+element.addEventListener("click", myFunctionTwo);
+
+function myFunctionTwo() {
+  document.getElementById("demoTwo").innerHTML = "My favorite place is to hike the Jedediah Smith Redwoods of Northern California";
+};
+</script>
+</div>
+
+
+<div>
+<button id="ritual">My Favorite Ritual</button>
+<p id="demoThree">
+<script>
+let elementThree = document.getElementById("ritual");
+element.addEventListener("click", myFunctionThree);
+
+function myFunctionThree() {
+  document.getElementById("demoThree").innerHTML = "My favorite ritual is to wake up in the morning and browse Baby Yoda memes on my phone";
+};
+</script>
+</div>
+
+
+
+<script src="profile.js"></script>
 </body>
 </html>
 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+
+    <title>My Neighborhood</title>
+</head>
+<h1>This is the neigborhood around me!</h1>
+<body>
+    <p>In San Francisco we have the Golden Gate Park</p>
+    <p>To the North, you will reach the Golden Gate Bridge</p>
+    <p>To the East, you will reach the the metropolis Downtown Financial District as well as Japantown and Chinatown</p>
+    <p>To the South, you will reach Pacifica</p>
+    <p>To the West, you will reach Ocean Beach</p>
+    <p>There are many local restaurants around the area, including Korean, Japanese, Chinese, Ethiopean, Cambodian, French, and lots of local seafood inspired restaurants.</p>
+    <p>Because the city is located on the water, seafood dishes which include Dungeness crab, oyster, and various types of fish are a large cuisine within the area.</p>
+
+
+
+<div>
+    <script>
+        var sites = [
+            'https://farmhousethai.com/san-francisco',
+            'https://crabhouse39.com/',
+            'https://www.kelementsbbq.com/',
+            'http://zunicafe.com/',
+            'http://bobaguys.com/',
+        ];
+        function randomSite() {
+            var i = parseInt(Math.random() * sites.length);
+            location.href = sites[i];
+        }
+    </script>
+    <a href="#" onclick="randomSite();">Random Restaurant Link</a>
+
+</div>
+<br>
+    <a href="https://sf.eater.com/maps/classic-restaurants-san-francisco">If you want to go through a list of recommended restaurants, view this site here.</a>
+</br>
+
+
+</body>
+</html>
+
+<br>
+<br>
+
+<a href="./home.html"><< Back </a>

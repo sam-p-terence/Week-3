@@ -25,7 +25,7 @@ a {
 }
 
 a:visited {
-	color: crimson;
+	color: rgb(255, 57, 57);
 }
 
 
@@ -69,3 +69,30 @@ img {
     visibility: visible;
     opacity: 0.7;        
 }
+
+body {
+    background-image: url("https://i.redd.it/4la2zznv3k391.jpg");
+    background-repeat: no-repeat;
+	background-size: 100%;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px #000000;
+  }
+
+  #color {
+      background-color: yellow;
+      height:50px; 
+      width:300x;
+  }
+
+  #place {
+      background-color: yellow;
+      height:70px; 
+      width:400x;
+  }
+
+  #ritual {
+      background-color: yellow;
+      height:90px; 
+      width:500x;
+  }
