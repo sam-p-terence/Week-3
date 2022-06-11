@@ -72,7 +72,7 @@ img {
 }
 
 body {
-    background-image: url("https://i.redd.it/4la2zznv3k391.jpg");
+    background-image: url("https://i.redd.it/klqek785wz491.jpg");
     background-repeat: repeat;
 	background-size: 100%;
     background-color: #ffffff;
@@ -81,23 +81,33 @@ body {
   }
 
   #color {
-      background-color: yellow;
-      height:50px; 
-      width:300x;
+      background-color: rgb(240, 240, 182);
+      height:70px; 
+      width:400x;
   }
 
   #place {
-      background-color: yellow;
+      background-color: rgb(240, 240, 182);
       height:70px; 
       width:400x;
   }
 
   #ritual {
-      background-color: yellow;
-      height:90px; 
-      width:500x;
+      background-color: rgb(240, 240, 182);
+      height:70px; 
+      width:400x;
   }
 
-  #checkboxes {
+  .radio-box-form {
       display: flex;
+      align-items: flex-start;
+  }
+
+  /* #checkboxes {
+      display: flex;
+  } */
+
+  .button:hover {
+      cursor: pointer;
+      border-radius: 15px;
   }
